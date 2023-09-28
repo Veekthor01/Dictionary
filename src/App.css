@@ -1,0 +1,104 @@
+/* external-styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #938eb9;
+}
+
+.custom-container {
+ 
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  font-size: 40px;
+  color: #4d22e7;
+  padding-bottom: 50px; /* Added more space below the header */
+}
+
+.custom-textfield {
+  margin-bottom: 10px;
+  height: 35px;
+  width: 200px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.custom-textfield::-webkit-input-placeholder {
+  color: #999; 
+  font-style: italic;
+  font-size: 14px;
+}
+.custom-textfield::-moz-placeholder {
+  color: #999; 
+  font-style: italic;
+}
+.custom-textfield:-ms-input-placeholder {
+  color: #999;
+  font-style: italic;
+}
+.custom-textfield::-ms-input-placeholder {
+  color: #999;
+  font-style: italic;
+}
+.custom-textfield::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.custom-button {
+  margin-top: 10px; /* Added space between TextField and Button */
+  margin-bottom: 20px; /* Added more space below the Button */
+  height: 35px;
+  width: 150px;
+  background-color: blue;
+  color: #fff;
+  font-size: 15px;
+}
+
+.definition {
+  font-size: 25px; /* Increased font size for definition */
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: burlywood;
+}
+
+.heading {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px; /* Adjust as needed */
+  font-size: 25px;
+}
+
+.entry {
+  margin-top: 5px; /* Adjust as needed */
+  color: #4d22e7;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.word {
+  font-weight: bold;
+  font-size: 30px; /* Adjust as needed */
+  color: #007acc; /* Adjust the color as desired */
+  margin-top: 10px; /* Adjust as needed */
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 5px; 
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 10px; /* Added space above the list */
+}
+
+li {
+  margin-bottom: 6px;
+}
