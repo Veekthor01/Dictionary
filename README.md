@@ -1,8 +1,19 @@
-# React + Vite
+## Dictionary App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### This is a simple dictionary made with React and Vite. 
+#### It uses the Free Dictionary API to provide definitions, parts of speech, examples, and audio pronunciations for words.
 
-Currently, two official plugins are available:
+### How to Install
+#### To install the dictionary app, clone the repository and run the following command:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
+#### Once the dependencies have been installed, you can start the development server by running the following command:
+
+npm run dev
+#### The development server will start at http://localhost:5173. You can open this URL in your web browser to view the dictionary app.
+
+#### Check about section for live site.
+
+### License
+
+#### MIT License.
