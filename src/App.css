@@ -1,20 +1,20 @@
-/* external-styles.css */
 body, html {
   margin: 0;
   padding: 0;
-  background-color: #938eb9;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .custom-container {
- 
   padding: 20px;
   text-align: center;
 }
 
 .header {
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: bold;
   color: #4d22e7;
-  padding-bottom: 50px; /* Added more space below the header */
+  padding-bottom: 50px;
 }
 
 .custom-textfield {
@@ -23,6 +23,7 @@ body, html {
   width: 200px;
   margin-right: 20px;
   font-size: 15px;
+  border-radius: 4px;
 }
 .custom-textfield::-webkit-input-placeholder {
   color: #999; 
@@ -47,9 +48,9 @@ body, html {
 }
 
 .custom-button {
-  margin-top: 10px; /* Added space between TextField and Button */
-  margin-bottom: 20px; /* Added more space below the Button */
-  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 40px;
   width: 150px;
   background-color: blue;
   color: #fff;
@@ -57,21 +58,22 @@ body, html {
 }
 
 .definition {
-  font-size: 25px; /* Increased font size for definition */
+  font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
-  background-color: burlywood;
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+  background-blend-mode: screen;
 }
 
 .heading {
   font-weight: bold;
   color: #333;
-  margin-top: 10px; /* Adjust as needed */
+  margin-top: 10px;
   font-size: 25px;
 }
 
 .entry {
-  margin-top: 5px; /* Adjust as needed */
+  margin-top: 5px;
   color: #4d22e7;
   margin-bottom: 15px;
   font-size: 22px;
@@ -79,9 +81,9 @@ body, html {
 
 .word {
   font-weight: bold;
-  font-size: 30px; /* Adjust as needed */
-  color: #007acc; /* Adjust the color as desired */
-  margin-top: 10px; /* Adjust as needed */
+  font-size: 30px;
+  color: #007acc;
+  margin-top: 10px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
@@ -96,9 +98,32 @@ audio {
 ul {
   list-style-type: square;
   padding-left: 20px;
-  margin-top: 10px; /* Added space above the list */
+  margin-top: 10px;
 }
 
 li {
   margin-bottom: 6px;
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .header {
+    font-size: 30px;
+  }
+  .custom-textfield {
+    margin-right: 13px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  
+  .entry {
+    font-size: 18px;
+  }
+  
+  .word {
+    font-size: 25px;
+  }
+  audio {
+    width: 250px;
+  }
+  
 }
